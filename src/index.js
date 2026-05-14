@@ -6,7 +6,7 @@ config();
 const app = express();
 
 app.get("/", (req, res) => {
-  return res.json({ message: "App is Healthy and healthy with Full end to end CICD....!" });
+  return res.json({ message: "End to End CICD implemented.....!" });
 });
 
 const port = process.env.PORT || 3000;
