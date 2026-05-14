@@ -11,6 +11,6 @@ app.get("/", (req, res) => {
 
 const port = process.env.PORT || 3000;
 
-app.listen(prompt, () => {
+app.listen(port, () => {
   console.log(`http://localhost:${port}`);
 });
