@@ -6,7 +6,7 @@ config();
 const app = express();
 
 app.get("/", (req, res) => {
-  return res.json({ message: "App is Healthy and updated...!" });
+  return res.json({ message: "App is Healthy and updated....!" });
 });
 
 const port = process.env.PORT || 3000;
