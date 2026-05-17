@@ -6,7 +6,7 @@ config();
 const app = express();
 
 app.get("/", (req, res) => {
-  return res.json({ message: "End to End CICD implemented.....!" });
+  return res.json({ message: "End to End CICD implementation." });
 });
 
 const port = process.env.PORT || 3000;
